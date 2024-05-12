@@ -14,5 +14,5 @@ const accountSchme = new mongoose.Schema({
         required: true
     }
 });
-
+// first argument should be the name of the collection in mongoDB
 export const accountModel = mongoose.model("accounts", accountSchme);
